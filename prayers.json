@@ -1,0 +1,194 @@
+[
+  {
+    "id": "joyful",
+    "title": "Joyful Mysteries",
+    "subtitle": "Prayed on Mondays & Saturdays",
+    "introText": "The Joyful Mysteries focus on the incarnation and early hidden life of Jesus Christ.",
+    "mysteries": [
+      {
+        "num": "1",
+        "title": "The Annunciation",
+        "description": "Gabriel brings the good news, Mary accepts God’s will and the Holy Spirit overshadows her. The Holy Spirit brings Christ to us. (Luke 1:26-38)",
+        "image": "images/joyful/annunciation.jpg",
+        "decprayer": "Our Father, 10 x Hail Mary, Glory Be, <span class='clickable-prayer' data-prayer='O my Jesus, forgive us our sins, save us from the fires of hell, lead all souls to Heaven, especially those in most need of thy mercy.'>Fatima Prayer</span>",
+        "prayer": "God our Father we pray for those who carried the Good News of Jesus Christ to their brothers and sisters: missionaries, priests, deacons, catechists, parents and leaders of children’s liturgy. May they be full of gifts of the Holy Spirit."
+      },
+      {
+        "num": "2",
+        "title": "The Visitation",
+        "description": "Mary visits her cousin Elizabeth whose child, filled with the Holy Spirit recognises the Good News of Jesus Christ. (Luke 1:39-45)",
+        "image": "images/joyful/visitation.jpg",
+		    "decprayer": "Our Father, 10 x Hail Mary, Glory Be, <span class='clickable-prayer' data-prayer='O my Jesus, forgive us our sins, save us from the fires of hell, lead all souls to Heaven, especially those in most need of thy mercy.'>Fatima Prayer</span>",
+        "prayer": "Lord Jesus Christ, we pray for all those who have recognised you as the Good News of salvation We ask you to show us the way to share the Gospel with those who do not know you. May we join with Mary in proclaiming “My soul glorifies the Lord my spirit rejoices in God my saviour.”"
+      },
+      {
+        "num": "3",
+        "title": "The Nativity of the Son of God",
+        "description": "The birth of Jesus is proclaimed to the shepherd and they believe. (Luke 2:1-7)",
+        "image": "images/joyful/nativity.jpg",
+		    "decprayer": "Our Father, 10 x Hail Mary, Glory Be, <span class='clickable-prayer' data-prayer='O my Jesus, forgive us our sins, save us from the fires of hell, lead all souls to Heaven, especially those in most need of thy mercy.'>Fatima Prayer</span>",
+        "prayer": "Holy Spirit, we ask you to be with us when we find it difficult to believe, when our faith is weak, when doubts trouble our minds. At these times let us joyfully sing with the angelic hosts: “Glory to God on high and earth peace to those who enjoy God’s favour.”"
+      },
+      {
+        "num": "4",
+        "title": "The Presentation in the Temple",
+        "description": "The parents of Jesus fulfil the law. Simeon and Anna, filled with the Spirit, recognise a special child and prophecy his future and that of Mary. (Luke 2: 22-35)",
+        "image": "images/joyful/presentation.jpg",
+		    "decprayer": "Our Father, 10 x Hail Mary, Glory Be, <span class='clickable-prayer' data-prayer='O my Jesus, forgive us our sins, save us from the fires of hell, lead all souls to Heaven, especially those in most need of thy mercy.'>Fatima Prayer</span>",
+        "prayer": "Let us pray for our own intentions."
+      },
+      {
+        "num": "5",
+        "title": "The Finding of the Child Jesus in the Temple",
+        "description": "Jesus reminds his parents that he must do his Father’s work but returns with them and remains obedient to their authority for many years. (Luke 2:41-52)",
+        "image": "images/joyful/finding-of-jesus.jpg",
+		    "decprayer": "Our Father, 10 x Hail Mary, Glory Be, <span class='clickable-prayer' data-prayer='O my Jesus, forgive us our sins, save us from the fires of hell, lead all souls to Heaven, especially those in most need of thy mercy.'>Fatima Prayer</span>",
+        "prayer": "O Holy Trinity we pray for all. May those you call, hear and follow your voice to your Father’s work."
+      }
+    ]
+  },
+  {
+    "id": "sorrowful",
+    "title": "Sorrowful Mysteries",
+    "subtitle": "Prayed on Tuesdays & Fridays",
+    "introText": "The Sorrowful Mysteries reflect upon the Passion and Death of Jesus Christ.",
+    "mysteries": [
+      {
+        "num": "1",
+        "title": "The Agony in the Garden",
+        "description": "Jesus prays in agony in the Garden of Gethsemane before His arrest.",
+        "image": "images/sorrowful/agony.jpg",
+		    "decprayer": "Our Father, 10 x Hail Mary, Glory Be, <span class='clickable-prayer' data-prayer='O my Jesus, forgive us our sins, save us from the fires of hell, lead all souls to Heaven, especially those in most need of thy mercy.'>Fatima Prayer</span>",
+        "prayer": ""
+      },
+      {
+        "num": "2",
+        "title": "The Scourging at the Pillar",
+        "description": "Jesus is bound to a pillar and severely whipped.",
+        "image": "images/sorrowful/scourging.jpg",
+	    	"decprayer": "Our Father, 10 x Hail Mary, Glory Be, <span class='clickable-prayer' data-prayer='O my Jesus, forgive us our sins, save us from the fires of hell, lead all souls to Heaven, especially those in most need of thy mercy.'>Fatima Prayer</span>",
+        "prayer": ""
+      },
+      {
+        "num": "3",
+        "title": "The Scourging at the Pillar",
+        "description": "Soldiers place a crown of thorns upon Jesus' head in mockery.",
+        "image": "images/sorrowful/crowning-of-thorns.jpg",
+		    "decprayer": "Our Father, 10 x Hail Mary, Glory Be, <span class='clickable-prayer' data-prayer='O my Jesus, forgive us our sins, save us from the fires of hell, lead all souls to Heaven, especially those in most need of thy mercy.'>Fatima Prayer</span>",
+        "prayer": ""
+      },
+      {
+        "num": "4",
+        "title": "The Carrying of the Cross",
+        "description": "Jesus carries His heavy cross to Calvary.",
+        "image": "images/sorrowful/scourging.jpg",
+		    "decprayer": "Our Father, 10 x Hail Mary, Glory Be, <span class='clickable-prayer' data-prayer='O my Jesus, forgive us our sins, save us from the fires of hell, lead all souls to Heaven, especially those in most need of thy mercy.'>Fatima Prayer</span>",
+        "prayer": ""
+      },
+      {
+        "num": "5",
+        "title": "The Crucifixion",
+        "description": "Jesus is nailed to the cross and dies for our salvation.",
+        "image": "images/sorrowful/scourging.jpg",
+		    "decprayer": "Our Father, 10 x Hail Mary, Glory Be, <span class='clickable-prayer' data-prayer='O my Jesus, forgive us our sins, save us from the fires of hell, lead all souls to Heaven, especially those in most need of thy mercy.'>Fatima Prayer</span>",
+        "prayer": ""
+      }
+    ]
+  },
+  {
+    "id": "glorious",
+    "title": "Glorious Mysteries",
+    "subtitle": "Prayed on Wednesdays & Sundays",
+    "introText": "The Glorious Mysteries celebrate the triumph of Christ over sin and death.",
+    "mysteries": [
+      {
+        "num": "1",
+        "title": "The Resurrection",
+        "description": "Jesus rises victorious from the dead three days after His crucifixion.",
+        "image": "images/glorious/the-resurrection.jpg",
+	    	"decprayer": "Our Father, 10 x Hail Mary, Glory Be, <span class='clickable-prayer' data-prayer='O my Jesus, forgive us our sins, save us from the fires of hell, lead all souls to Heaven, especially those in most need of thy mercy.'>Fatima Prayer</span>",
+        "prayer": ""
+      },
+      {
+        "num": "2",
+        "title": "The Ascension",
+        "description": "Jesus ascends into Heaven forty days after His Resurrection.",
+        "image": "images/glorious/ascension.jpg",
+	    	"decprayer": "Our Father, 10 x Hail Mary, Glory Be, <span class='clickable-prayer' data-prayer='O my Jesus, forgive us our sins, save us from the fires of hell, lead all souls to Heaven, especially those in most need of thy mercy.'>Fatima Prayer</span>",
+        "prayer": ""
+      },
+      {
+        "num": "3",
+        "title": "The Descent of the Holy Spirit",
+        "description": "The Holy Spirit comes down upon the Apostles and Mary at Pentecost.",
+        "image": "images/glorious/descent-of-the-holy-spirit.jpg",
+		    "decprayer": "Our Father, 10 x Hail Mary, Glory Be, <span class='clickable-prayer' data-prayer='O my Jesus, forgive us our sins, save us from the fires of hell, lead all souls to Heaven, especially those in most need of thy mercy.'>Fatima Prayer</span>",
+        "prayer": ""
+      },
+      {
+        "num": "4",
+        "title": "The Assumption",
+        "description": "Mary is taken body and soul into Heavenly glory at the end of her earthly life.",
+        "image": "images/glorious/assumption-of-mary.jpg",
+	    	"decprayer": "Our Father, 10 x Hail Mary, Glory Be, <span class='clickable-prayer' data-prayer='O my Jesus, forgive us our sins, save us from the fires of hell, lead all souls to Heaven, especially those in most need of thy mercy.'>Fatima Prayer</span>",
+        "prayer": ""
+      },
+      {
+        "num": "5",
+        "title": "The Coronation of Mary",
+        "description": "Mary is crowned Queen of Heaven and Earth.",
+        "image": "images/glorious/coronation-of-mary.jpg",
+	    	"decprayer": "Our Father, 10 x Hail Mary, Glory Be, <span class='clickable-prayer' data-prayer='O my Jesus, forgive us our sins, save us from the fires of hell, lead all souls to Heaven, especially those in most need of thy mercy.'>Fatima Prayer</span>",
+        "prayer": ""
+      }
+    ]
+  },
+  {
+    "id": "luminous",
+    "title": "Luminous Mysteries",
+    "subtitle": "Prayed on Thursdays",
+    "introText": "The Luminous Mysteries highlight key events during the public ministry of Jesus Christ.",
+    "mysteries": [
+      {
+        "num": "1",
+        "title": "The Baptism of Jesus by John the Baptist",
+        "description": "It was at this time that Jesus came from Nazareth in Galilee and was baptised in the Jordan by John. And at once as he was coming up of the water, he saw the heavens torn apart and the Spirit, like a dove descending on him. And a voice came from heaven, “You are my Son, the beloved; my favour rests on you.” (Mark 1:9-11)",
+        "image": "images/luminous/baptism.jpg",
+		    "decprayer": "Our Father, 10 x Hail Mary, Glory Be, <span class='clickable-prayer' data-prayer='O my Jesus, forgive us our sins, save us from the fires of hell, lead all souls to Heaven, especially those in most need of thy mercy.'>Fatima Prayer</span>",
+        "prayer": ""
+      },
+      {
+        "num": "2",
+        "title": "The Wedding at Cana",
+        "description": "Jesus turns water into wine at the request of his mother. This was the first of Jesus’ signs: it was a Cana in Galilee. He was revealed by his glory, and his disciples believed in him. After this he went down to Capernaum with his mother and his brothers and his disciples, but they stayed there only for a few days. (John 2:11-12)",
+        "image": "images/luminous/wedding-of-cana.jpg",
+	    	"decprayer": "Our Father, 10 x Hail Mary, Glory Be, <span class='clickable-prayer' data-prayer='O my Jesus, forgive us our sins, save us from the fires of hell, lead all souls to Heaven, especially those in most need of thy mercy.'>Fatima Prayer</span>",
+        "prayer": ""
+      },
+      {
+        "num": "3",
+        "title": "The Proclamation of the Kingdom of God",
+        "description": "Jesus goes through the towns and cities of Galilee and Judea proclaiming God’s kingdom: “The time is fulfilled and the kingdom of God is close at hand. Repent and believe the good news.” (Mark 1:14-15)",
+        "image": "images/luminous/proclamation-of-the-kingdom.jpg",
+		    "decprayer": "Our Father, 10 x Hail Mary, Glory Be, <span class='clickable-prayer' data-prayer='O my Jesus, forgive us our sins, save us from the fires of hell, lead all souls to Heaven, especially those in most need of thy mercy.'>Fatima Prayer</span>",
+        "prayer": ""
+      },
+      {
+        "num": "4",
+        "title": "The Transfiguration",
+        "description": "He took with him Peter, James and John and went up the mountain to pray. And it happened that, as he was praying, the aspect of his face changed and his clothing became sparkling white. And suddenly there were two men talking to him, Moses and Elijah appearing in glory and they were speaking of his passing. (Luke 9:28-31)",
+        "image": "images/luminous/transfiguration.jpg",
+	    	"decprayer": "Our Father, 10 x Hail Mary, Glory Be, <span class='clickable-prayer' data-prayer='O my Jesus, forgive us our sins, save us from the fires of hell, lead all souls to Heaven, especially those in most need of thy mercy.'>Fatima Prayer</span>",
+        "prayer": ""
+      },
+      {
+        "num": "5",
+        "title": "The Institution of the Holy Eucharist at the Last Supper",
+        "description": "This is my body; this is my blood offered for you.",
+        "image": "images/luminous/insitution-of-the-eucharist.jpg",
+		    "decprayer": "Our Father, 10 x Hail Mary, Glory Be, <span class='clickable-prayer' data-prayer='O my Jesus, forgive us our sins, save us from the fires of hell, lead all souls to Heaven, especially those in most need of thy mercy.'>Fatima Prayer</span>",
+        "prayer": ""
+      }
+    ]
+  }
+]

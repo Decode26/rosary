@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Holy Rosary - Prayer Companion</title>
+     
+    <!-- Favicon is coded into HTML. Alternate method is to create a .ico file -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23d97706'><path d='M10.5 2h3a.5.5 0 0 1 .5.5V8h5.5a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.5.5H14v9.5a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5V12H4.5a.5.5 0 0 1-.5-.5v-3a.5.5 0 0 1 .5-.5H10V2.5a.5.5 0 0 1 .5-.5z'/></svg>">
+
+    <!-- Open Graph / WhatsApp Link Preview Meta Tags -->
+    <meta property="og:title" content="Holy Rosary - Prayer Companion">
+    <meta property="og:description" content="A companion for praying the Holy Rosary with the mysteries and reflections.">
+    <meta property="og:image" content="https://rosary.is-great.org/images/rosary-preview.jpg">
+    <meta property="og:url" content="https://rosary.is-great.org/">
+    <meta property="og:type" content="website">
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        // Configure Tailwind to support dark mode via class
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            50: '#f0f7ff',
+                            100: '#e0effe',
+                            500: '#3b82f6',
+                            600: '#2563eb',
+                            700: '#1d4ed8',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Lucide Icons CDN -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-slate-50 dark:bg-slate-900 text-slate-800 dark:text-slate-100 min-h-full flex flex-col font-sans antialiased">
+
+    <!-- Header & Navigation -->
+    <header class="sticky top-0 z-10 bg-white/80 dark:bg-slate-900/80 backdrop-blur-md border-b border-slate-200 dark:border-slate-800 px-4 py-3">
+        <div class="max-w-xl mx-auto flex items-center justify-between relative">
+            
+            <!-- Spacer to maintain true center alignment for title -->
+            <div class="w-10"></div>
+
+            <!-- Centered App Title / Logo -->
+            <div class="flex items-center gap-2">
+                <!-- Prayer Hands Icon -->
+                <i data-lucide="book-open" class="w-6 h-6 text-brand-600 dark:text-brand-500"></i>
+                <h1 class="text-lg font-bold tracking-tight text-slate-900 dark:text-white">Prayer Companion</h1>
+            </div>
+
+            <!-- Theme Selector Trigger -->
+            <div class="flex items-center w-10 justify-end">
+                <button id="theme-btn" aria-label="Toggle Theme" class="p-2.5 rounded-full hover:bg-slate-100 dark:hover:bg-slate-800 text-slate-600 dark:text-slate-300 transition-colors focus:outline-none focus:ring-2 focus:ring-brand-500">
+                    <i id="theme-icon" data-lucide="sun" class="w-5 h-5"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content Container -->
+    <main class="flex-1 max-w-xl w-full mx-auto p-4 sm:p-6 flex flex-col gap-4">
+        
+        <!-- Category Dropdown Control -->
+        <section class="bg-white dark:bg-slate-800 p-4 rounded-2xl shadow-sm border border-slate-200/80 dark:border-slate-700/60 flex flex-col gap-3">
+            <div>
+                <label for="category-select" class="block text-xs font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400 mb-1.5">
+                    Select Rosary Mysteries
+                </label>
+                <div class="relative">
+                    <select id="category-select" class="w-full appearance-none bg-slate-50 dark:bg-slate-900 border border-slate-300 dark:border-slate-700 text-slate-900 dark:text-slate-100 rounded-xl px-4 py-3 pr-10 text-base font-bold focus:outline-none focus:ring-2 focus:ring-brand-500">
+                        <!-- Populated by JavaScript -->
+                    </select>
+                    <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-3 text-slate-500 dark:text-slate-400">
+                        <i data-lucide="chevron-down" class="w-5 h-5"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Introduction section-->
+        <section class="bg-white dark:bg-slate-800 p-4 rounded-2xl shadow-sm border border-slate-200/80 dark:border-slate-700/60 flex flex-col gap-2">
+            <div class="flex items-center justify-between">
+                <label for="intentions-input" class="text-xs font-bold uppercase tracking-wider text-brand-600 dark:text-brand-400 flex items-center gap-1.5">
+                    <i data-lucide="heart-handshake" class="w-4 h-4"></i>
+                    <span>The Holy Rosary</span>
+                </label>
+            </div>
+                 
+            <div class="p-4 rounded-xl bg-brand-50/60 dark:bg-slate-900/90 border border-brand-200/60 dark:border-slate-700/60 space-y-2">
+                <p class="text-slate-800 dark:text-slate-200 font-medium text-sm sm:text-base leading-relaxed">
+                    The Sign of the Cross
+                <br> <br>
+                </p>
+                <h2 class="text-xs font-extrabold uppercase tracking-wider text-brand-600 dark:text-brand-400">
+                        Prayers of the Rosary <br> <br>
+                </h2>
+                <h3 class="text-xs font-extrabold uppercase tracking-wider text-brand-600 dark:text-brand-400">
+                    The Apostles’ Creed: <br>
+                </h3>
+                    <p class="text-slate-800 dark:text-slate-200 font-medium text-sm sm:text-base leading-relaxed">
+                        I believe in God, the Father Almighty, creator of heaven and earth. I believe in Jesus Christ, his only Son, our Lord. He was conceived by the power of the Holy Spirit and born of the Virgin Mary. He suffered under Pontius Pilate, was crucified, died, and was buried. He descended into hell. On the third day he rose again. He ascended into heaven, and is seated at the right hand of the Father. He will come again to judge the living and the dead. I believe in the Holy Spirit, the holy Catholic Church, the communion of saints, the forgiveness of sins, the resurrection of the body, and the life everlasting. Amen.
+                        <br> <br>
+                    </p>
+                    <p class="text-slate-600 dark:text-slate-500 font-bold text-sm sm:text-base leading-relaxed">
+                        Our Father, 3 x Hail Mary, Glory be to The Father
+                    </p>
+            </div>  
+        </section> 
+
+        <!-- Display Area for Selected Rosary Mysteries -->
+        <section class="bg-white dark:bg-slate-800 p-5 sm:p-6 rounded-2xl shadow-sm border border-slate-200/80 dark:border-slate-700/60 flex-1 flex flex-col">
+            <!-- Header for current mystery view -->
+            <div class="border-b border-slate-100 dark:border-slate-700/50 pb-4 mb-4">
+                <h2 id="display-title" class="text-xl sm:text-2xl font-extrabold tracking-tight text-slate-900 dark:text-white leading-snug">
+                    Loading...
+                </h2>
+                <p id="display-subtitle" class="text-xs font-bold text-brand-600 dark:text-brand-400 mt-1 uppercase tracking-wider">
+                    Select an option above
+                </p>
+                <p id="display-introText" class="text-slate-600 dark:text-slate-200 font-medium text-xs xs:text-base leading-relaxed">
+                    Select an option above
+                </p>
+            </div>
+
+            <!-- Main Content Area -->
+            <div id="display-body" class="max-w-none text-base sm:text-lg leading-relaxed text-slate-700 dark:text-slate-300 space-y-4 flex-1">
+                <!-- Text body will be populated here -->
+            </div>
+        </section>
+
+        <!--Section for end prayers-->
+        <section class="bg-white dark:bg-slate-800 p-4 rounded-2xl shadow-sm border border-slate-200/80 dark:border-slate-700/60 flex flex-col gap-2">
+            <div class="flex items-center justify-between">
+                <label for="intentions-input" class="text-xs font-bold uppercase tracking-wider text-brand-600 dark:text-brand-400 flex items-center gap-1.5">
+                    <i data-lucide="heart-handshake" class="w-4 h-4"></i>
+                    <span></span>
+                </label>
+            </div>
+                 
+            <div class="p-4 rounded-xl bg-brand-50/60 dark:bg-slate-900/90 border border-brand-200/60 dark:border-slate-700/60 space-y-2">
+                <h3 class="text-xs font-extrabold uppercase tracking-wider text-brand-600 dark:text-brand-400">
+                    Hail Holy Queen: <br>
+                </h3>
+                <p class="text-slate-800 dark:text-slate-200 font-medium text-sm sm:text-base leading-relaxed">
+                    Hail, holy Queen, Mother of Mercy; hail, our life, our sweetness, and our hope! To thee do we cry, poor banished children of Eve; to thee do we send up our sighs, mourning and weeping in this valley of tears. Turn then, most gracious advocate, thine eyes of mercy towards us; and after this, our exile, show unto us the blessed fruit of thy womb, Jesus. O clement, O loving, O sweet Virgin Mary. <br>
+                    Pray for us, O holy Mother of God. <br>
+                    That we may be made worthy of the promises of Christ.
+                    <br> <br>
+                </p>
+                <h3 class="text-xs font-extrabold uppercase tracking-wider text-brand-600 dark:text-brand-400">
+                    Let us Pray: <br>
+                </h3>
+                <p class="text-slate-800 dark:text-slate-200 font-medium text-sm sm:text-base leading-relaxed">
+                    O God, whose only-begotten Son, by his life, death and resurrection, has purchased for us the rewards of eternal life; grant, we beseech Thee, that meditating on these Mysteries of the most Holy Rosary of the Blessed Virgin Mary, we may both imitate what they contain, and obtain what they promise, through the same Christ our Lord. Amen.<br>
+                </p>
+            </div>  
+        </section> 
+    </main>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" aria-label="Back to Top" class="fixed bottom-6 right-6 z-40 p-3 rounded-full bg-brand-600 text-white shadow-lg opacity-0 pointer-events-none transition-all duration-300 hover:bg-brand-700 focus:outline-none focus:ring-2 focus:ring-brand-500">
+        <i data-lucide="arrow-up" class="w-5 h-5"></i>
+    </button>
+
+    <!-- External Application Script -->
+    <script src="app.js"></script>
+</body>
+</html>

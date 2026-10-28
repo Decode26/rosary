@@ -1,0 +1,55 @@
+/* Smooth transitions for theme switching */
+* {
+    transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+/* Interactive Clickable Word Style */
+.clickable-prayer {
+    cursor: pointer;
+    text-decoration: underline dotted;
+    text-underline-offset: 3px;
+    font-weight: 600;
+    position: relative;
+    display: inline-block;
+}
+
+/* Popup Balloon Base Style */
+.prayer-balloon {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    bottom: 125%; /* Positions balloon directly above the word */
+    left: 50%;
+    transform: translateX(-50%) translateY(4px);
+    width: 220px;
+    background-color: #1e293b; /* Dark slate background */
+    color: #ffffff;
+    text-align: center;
+    padding: 8px 12px;
+    border-radius: 8px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    line-height: 1.3;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.2);
+    transition: opacity 0.2s ease, transform 0.2s ease, visibility 0.2s;
+    z-index: 50;
+}
+
+/* Balloon Arrow Pointing Down to Word */
+.prayer-balloon::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #1e293b transparent transparent transparent;
+}
+
+/* Visible State */
+.prayer-balloon.active {
+    visibility: visible;
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+}
