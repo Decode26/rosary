@@ -56,42 +56,42 @@
       {
         "num": "1",
         "title": "The Agony in the Garden",
-        "description": "Jesus prays in agony in the Garden of Gethsemane before His arrest.",
+        "description": "Jesus came with them to a place called Gethsemane, and he said to his disciples, “Sit here while I go over to pray”.  He went a little farther and fell to the ground, with his face touching the earth, and prayed, “Father if it is possible, take the cup away from me. Yet not my will but yours be done. (Matthew 26:36,39)",
         "image": "images/sorrowful/agony.jpg",
 		    "decprayer": "Our Father, 10 x Hail Mary, Glory Be, <span class='clickable-prayer' data-prayer='O my Jesus, forgive us our sins, save us from the fires of hell, lead all souls to Heaven, especially those in most need of thy mercy.'>Fatima Prayer</span>",
-        "prayer": ""
+        "prayer": "Pray"
       },
       {
         "num": "2",
         "title": "The Scourging at the Pillar",
-        "description": "Jesus is bound to a pillar and severely whipped.",
+        "description": "They shouted, “Crucify him!” Pilate asked them, “What harm has he done?”. But they shouted all the louder, “Crucify him!”. So, Pilate, anxious to placate the crowd, release Barabbas for them and after having Jesus scourged, he handed him over to be crucified. (Mark 15:13-15)",
         "image": "images/sorrowful/scourging.jpg",
 	    	"decprayer": "Our Father, 10 x Hail Mary, Glory Be, <span class='clickable-prayer' data-prayer='O my Jesus, forgive us our sins, save us from the fires of hell, lead all souls to Heaven, especially those in most need of thy mercy.'>Fatima Prayer</span>",
-        "prayer": ""
+        "prayer": "Pray"
       },
       {
         "num": "3",
-        "title": "The Scourging at the Pillar",
-        "description": "Soldiers place a crown of thorns upon Jesus' head in mockery.",
+        "title": "The Crowning with Thorns",
+        "description": "They stripped him and dressed him in a scarlet cloak. Then, twisting a crown of thorns, they forced it into onto his head, and placed a reed in his right hand. They knelt before Jesus and mocked him saying, “Hail, king of the Jews!” (Matthew 27:28-29)",
         "image": "images/sorrowful/crowning-of-thorns.jpg",
 		    "decprayer": "Our Father, 10 x Hail Mary, Glory Be, <span class='clickable-prayer' data-prayer='O my Jesus, forgive us our sins, save us from the fires of hell, lead all souls to Heaven, especially those in most need of thy mercy.'>Fatima Prayer</span>",
-        "prayer": ""
+        "prayer": "Pray"
       },
       {
         "num": "4",
         "title": "The Carrying of the Cross",
-        "description": "Jesus carries His heavy cross to Calvary.",
+        "description": "Bearing his own cross, Jesus went out to the Place of the Skull or as it is called Hebrew, Golgotha, where they crucified him with two others, one on either side, and Jesus in the middle. (John 19:17-18)",
         "image": "images/sorrowful/scourging.jpg",
 		    "decprayer": "Our Father, 10 x Hail Mary, Glory Be, <span class='clickable-prayer' data-prayer='O my Jesus, forgive us our sins, save us from the fires of hell, lead all souls to Heaven, especially those in most need of thy mercy.'>Fatima Prayer</span>",
-        "prayer": ""
+        "prayer": "Pray"
       },
       {
         "num": "5",
-        "title": "The Crucifixion",
-        "description": "Jesus is nailed to the cross and dies for our salvation.",
+        "title": "The Crucifixion and Death of Jesus Christ",
+        "description": "It was now about the sixth hour and the sun’s light failed, so that darkness came over the whole land until the ninth hour. The veil of the Sanctuary was torn right down the middle. Jesus cried out with a loud voice saying, “Father, into your hands I commend my spirit.” With these words he breathed his last. (Luke 23:44-46)",
         "image": "images/sorrowful/scourging.jpg",
 		    "decprayer": "Our Father, 10 x Hail Mary, Glory Be, <span class='clickable-prayer' data-prayer='O my Jesus, forgive us our sins, save us from the fires of hell, lead all souls to Heaven, especially those in most need of thy mercy.'>Fatima Prayer</span>",
-        "prayer": ""
+        "prayer": "Pray"
       }
     ]
   },
@@ -104,42 +104,42 @@
       {
         "num": "1",
         "title": "The Resurrection",
-        "description": "Jesus rises victorious from the dead three days after His crucifixion.",
+        "description": "The Angel said to the woman “You need not be amazed! You are looking for Jesus of Nazareth, the one who was crucified. He has been raised up; He is not here. See the place where they laid him. (Matthew 28:5-6)",
         "image": "images/glorious/the-resurrection.jpg",
 	    	"decprayer": "Our Father, 10 x Hail Mary, Glory Be, <span class='clickable-prayer' data-prayer='O my Jesus, forgive us our sins, save us from the fires of hell, lead all souls to Heaven, especially those in most need of thy mercy.'>Fatima Prayer</span>",
-        "prayer": ""
+        "prayer": "Pray"
       },
       {
         "num": "2",
         "title": "The Ascension",
-        "description": "Jesus ascends into Heaven forty days after His Resurrection.",
+        "description": "Then after speaking to them, the Lord Jesus was taken up into heaven and took His seat at God’s right hand. (Acts 1:6-11)",
         "image": "images/glorious/ascension.jpg",
 	    	"decprayer": "Our Father, 10 x Hail Mary, Glory Be, <span class='clickable-prayer' data-prayer='O my Jesus, forgive us our sins, save us from the fires of hell, lead all souls to Heaven, especially those in most need of thy mercy.'>Fatima Prayer</span>",
-        "prayer": ""
+        "prayer": "Pray"
       },
       {
         "num": "3",
         "title": "The Descent of the Holy Spirit",
-        "description": "The Holy Spirit comes down upon the Apostles and Mary at Pentecost.",
+        "description": "And there appeared to them tongues of fire and they rested on each of them. And they filled with the Holy Spirit began to speak with other tongues, as the spirit was giving them utterance. (Acts 2:2-4)",
         "image": "images/glorious/descent-of-the-holy-spirit.jpg",
 		    "decprayer": "Our Father, 10 x Hail Mary, Glory Be, <span class='clickable-prayer' data-prayer='O my Jesus, forgive us our sins, save us from the fires of hell, lead all souls to Heaven, especially those in most need of thy mercy.'>Fatima Prayer</span>",
-        "prayer": ""
+        "prayer": "Pray"
       },
       {
         "num": "4",
-        "title": "The Assumption",
-        "description": "Mary is taken body and soul into Heavenly glory at the end of her earthly life.",
+        "title": "The Assumption of Our Lady",
+        "description": "For behold from this time on all generations will call me blessed. “For the Mighty One has done great things for me; and Holy is His name. (Luke 1:48–49)",
         "image": "images/glorious/assumption-of-mary.jpg",
 	    	"decprayer": "Our Father, 10 x Hail Mary, Glory Be, <span class='clickable-prayer' data-prayer='O my Jesus, forgive us our sins, save us from the fires of hell, lead all souls to Heaven, especially those in most need of thy mercy.'>Fatima Prayer</span>",
-        "prayer": ""
+        "prayer": "Pray"
       },
       {
         "num": "5",
-        "title": "The Coronation of Mary",
-        "description": "Mary is crowned Queen of Heaven and Earth.",
+        "title": "Crowning of Our Blessed Lady",
+        "description": "A great sign appeared in heaven: a woman clothed with the sun, and the moon under her feet, and on her head a crown of twelve stars. (Revelation 12:1)",
         "image": "images/glorious/coronation-of-mary.jpg",
 	    	"decprayer": "Our Father, 10 x Hail Mary, Glory Be, <span class='clickable-prayer' data-prayer='O my Jesus, forgive us our sins, save us from the fires of hell, lead all souls to Heaven, especially those in most need of thy mercy.'>Fatima Prayer</span>",
-        "prayer": ""
+        "prayer": "Pray"
       }
     ]
   },
@@ -155,7 +155,7 @@
         "description": "It was at this time that Jesus came from Nazareth in Galilee and was baptised in the Jordan by John. And at once as he was coming up of the water, he saw the heavens torn apart and the Spirit, like a dove descending on him. And a voice came from heaven, “You are my Son, the beloved; my favour rests on you.” (Mark 1:9-11)",
         "image": "images/luminous/baptism.jpg",
 		    "decprayer": "Our Father, 10 x Hail Mary, Glory Be, <span class='clickable-prayer' data-prayer='O my Jesus, forgive us our sins, save us from the fires of hell, lead all souls to Heaven, especially those in most need of thy mercy.'>Fatima Prayer</span>",
-        "prayer": ""
+        "prayer": "Pray"
       },
       {
         "num": "2",
@@ -163,7 +163,7 @@
         "description": "Jesus turns water into wine at the request of his mother. This was the first of Jesus’ signs: it was a Cana in Galilee. He was revealed by his glory, and his disciples believed in him. After this he went down to Capernaum with his mother and his brothers and his disciples, but they stayed there only for a few days. (John 2:11-12)",
         "image": "images/luminous/wedding-of-cana.jpg",
 	    	"decprayer": "Our Father, 10 x Hail Mary, Glory Be, <span class='clickable-prayer' data-prayer='O my Jesus, forgive us our sins, save us from the fires of hell, lead all souls to Heaven, especially those in most need of thy mercy.'>Fatima Prayer</span>",
-        "prayer": ""
+        "prayer": "Pray"
       },
       {
         "num": "3",
@@ -171,7 +171,7 @@
         "description": "Jesus goes through the towns and cities of Galilee and Judea proclaiming God’s kingdom: “The time is fulfilled and the kingdom of God is close at hand. Repent and believe the good news.” (Mark 1:14-15)",
         "image": "images/luminous/proclamation-of-the-kingdom.jpg",
 		    "decprayer": "Our Father, 10 x Hail Mary, Glory Be, <span class='clickable-prayer' data-prayer='O my Jesus, forgive us our sins, save us from the fires of hell, lead all souls to Heaven, especially those in most need of thy mercy.'>Fatima Prayer</span>",
-        "prayer": ""
+        "prayer": "Pray"
       },
       {
         "num": "4",
@@ -179,7 +179,7 @@
         "description": "He took with him Peter, James and John and went up the mountain to pray. And it happened that, as he was praying, the aspect of his face changed and his clothing became sparkling white. And suddenly there were two men talking to him, Moses and Elijah appearing in glory and they were speaking of his passing. (Luke 9:28-31)",
         "image": "images/luminous/transfiguration.jpg",
 	    	"decprayer": "Our Father, 10 x Hail Mary, Glory Be, <span class='clickable-prayer' data-prayer='O my Jesus, forgive us our sins, save us from the fires of hell, lead all souls to Heaven, especially those in most need of thy mercy.'>Fatima Prayer</span>",
-        "prayer": ""
+        "prayer": "Pray"
       },
       {
         "num": "5",
@@ -187,7 +187,7 @@
         "description": "This is my body; this is my blood offered for you.",
         "image": "images/luminous/insitution-of-the-eucharist.jpg",
 		    "decprayer": "Our Father, 10 x Hail Mary, Glory Be, <span class='clickable-prayer' data-prayer='O my Jesus, forgive us our sins, save us from the fires of hell, lead all souls to Heaven, especially those in most need of thy mercy.'>Fatima Prayer</span>",
-        "prayer": ""
+        "prayer": "Pray"
       }
     ]
   }
