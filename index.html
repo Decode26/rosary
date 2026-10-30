@@ -11,8 +11,8 @@
     <!-- Open Graph / WhatsApp Link Preview Meta Tags -->
     <meta property="og:title" content="Holy Rosary - Prayer Companion">
     <meta property="og:description" content="A companion for praying the Holy Rosary with the mysteries and reflections.">
-    <meta property="og:image" content="https://decode26.github.io/rosary/images/rosary-preview.jpg">
-    <meta property="og:url" content="https://decode26.github.io/rosary">
+    <meta property="og:image" content="https://rosary.is-great.org/images/rosary-preview.jpg">
+    <meta property="og:url" content="https://rosary.is-great.org">
     <meta property="og:type" content="website">
 
     <!-- Tailwind CSS CDN -->
@@ -164,6 +164,50 @@
                 </p>
             </div>  
         </section> 
+
+        <!-- Display Gospel readings from universalis.com -->
+        <section class="bg-white dark:bg-slate-800 p-5 rounded-2xl shadow-sm border border-slate-200/80 dark:border-slate-700/60 space-y-4">
+            <div class="flex items-center justify-between border-b border-slate-100 dark:border-slate-700/60 pb-3">
+                <h2 class="text-base font-extrabold text-slate-900 dark:text-white flex items-center gap-2">
+                    <i data-lucide="book-open" class="w-5 h-5 text-brand-600 dark:text-brand-400"></i>
+                    <span>Today's Mass Readings</span>
+                </h2>
+                <span id="universalis-title" class="text-xs font-bold text-brand-600 dark:text-brand-400">Loading...</span>
+            </div>
+
+            <!-- Reading container -->
+            <div class="space-y-3 text-slate-700 dark:text-slate-300 text-sm leading-relaxed">
+                <div class="p-4 rounded-xl bg-brand-50/60 dark:bg-slate-900/90 border border-brand-200/60 dark:border-slate-700/60 space-y-2">
+                    <h4 class="font-bold uppercase tracking-wider text-slate-800 dark:text-slate-200 mb-1 flex items-center gap-1.5">
+                        <span>Gospel From</span>
+                        <span id="universalis-gospel-source">...</span>
+                    </h4>
+                    <div id="universalis-gospel" class="text-slate-800 dark:text-slate-200 font-medium text-sm sm:text-base leading-relaxed text-left">
+                        Loading today's Gospel... (<a href="https://universalis.com/mass.htm" target="_blank" class="underline text-brand-600">View on Universalis</a>)
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-[10px] text-slate-400 text-right">
+                Content provided by <a href="https://universalis.com" target="_blank" class="underline">Universalis</a>
+            </div>
+        </section>
+
+        <!-- Section to insert a button to universalis.com -->
+        <!-- 
+        <section class="bg-white dark:bg-slate-800 p-5 rounded-2xl shadow-sm border border-slate-200/80 dark:border-slate-700/60 flex items-center justify-between">
+            <div class="space-y-1">
+                <h2 class="text-base font-extrabold text-slate-900 dark:text-white flex items-center gap-2">
+                    <i data-lucide="book-open-check" class="w-5 h-5 text-brand-600 dark:text-brand-400"></i>
+                    <span>Daily Mass Readings</span>
+                </h2>
+                <p class="text-xs text-slate-500 dark:text-slate-400">Read today's Scripture and Gospel on Universalis.</p>
+            </div>
+            <a href="https://universalis.com/mass.htm" target="_blank" rel="noopener noreferrer" class="px-4 py-2.5 rounded-xl bg-brand-600 hover:bg-brand-700 text-white text-xs font-bold tracking-wide uppercase transition-colors shrink-0">
+                View Readings
+            </a>
+        </section>
+        --> 
     </main>
 
     <!-- Back to Top Button -->

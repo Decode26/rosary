@@ -127,6 +127,7 @@ themeBtn.addEventListener('click', cycleTheme);
 window.addEventListener('DOMContentLoaded', () => {
     applyTheme(themeSetting);
     loadPrayersFromFile();
+    loadUniversalisReadings();
     lucide.createIcons();
 });
 
@@ -163,6 +164,78 @@ document.addEventListener('click', (event) => {
         document.querySelectorAll('.prayer-balloon').forEach(b => b.classList.remove('active'));
     }
 });
+
+// --- UNIVERSALIS.COM MASS READINGS INTEGRATION ---
+// 1. The global callback function expected by Universalis JSONP
+// Global callback expected by Universalis
+window.universalisCallback = function(data) {
+    console.log("Universalis Data Received:", data);
+
+    // 1. Set Title / Celebration Name
+    const titleEl = document.getElementById('universalis-title');
+    if (titleEl) {
+        titleEl.innerHTML = data.day || data.title || "Today's Mass";
+    }
+
+    // 2. Set Gospel Source & Text
+    const sourceEl = document.getElementById('universalis-gospel-source');
+    const gospelEl = document.getElementById('universalis-gospel');
+
+    let gospelText = "";
+    let gospelSource = "";
+
+    // Extract text and source safely from Universalis payload structures
+    if (data.Mass_G) {
+        if (typeof data.Mass_G === 'string') {
+            gospelText = data.Mass_G;
+        } else {
+            gospelText = data.Mass_G.text || "";
+            gospelSource = data.Mass_G.source || "";
+        }
+    } else if (data.mass && data.mass.gospel) {
+        gospelText = typeof data.mass.gospel === 'string' ? data.mass.gospel : data.mass.gospel.text || "";
+        gospelSource = data.mass.gospel.source || "";
+    }
+
+    // Update source element if available
+    if (sourceEl) {
+        sourceEl.innerHTML = gospelSource ? gospelSource : "";
+    }
+
+    // Update Gospel text element
+    if (gospelEl) {
+        if (gospelText) {
+            gospelEl.innerHTML = gospelText;
+        } else {
+            gospelEl.innerHTML = "Gospel reading not available for today. <a href='https://universalis.com/mass.htm' target='_blank' class='underline text-brand-600'>Read on Universalis</a>";
+        }
+    }
+};
+
+// Function to dynamically inject the correct Universalis.com JSONP script
+function loadUniversalisReadings() {
+    const existingScript = document.getElementById('universalis-script');
+    if (existingScript) existingScript.remove();
+
+    const script = document.createElement('script');
+    script.id = 'universalis-script';
+
+    // Specify region/calendar (e.g., Europe.England.Westminster, USA, or Europe)
+    // Using 'today' lets Universalis serve today's readings dynamically
+    const regionCalendar = "Europe.England.Westminster"; 
+    script.src = `https://universalis.com/${regionCalendar}/today/jsonpmass.js?callback=universalisCallback`;
+    
+    script.async = true;
+
+    script.onerror = () => {
+        const gospelEl = document.getElementById('universalis-gospel');
+        if (gospelEl) {
+            gospelEl.innerHTML = "Unable to load live readings. <a href='https://universalis.com/mass.htm' target='_blank' class='underline text-brand-600'>Open Universalis directly</a>";
+        }
+    };
+
+    document.body.appendChild(script);
+}
 
 // Back to Top Button Functionality
 const backToTopBtn = document.getElementById('back-to-top');
