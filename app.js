@@ -205,7 +205,8 @@ window.universalisCallback = function(data) {
     // Update Gospel text element
     if (gospelEl) {
         if (gospelText) {
-            gospelEl.innerHTML = gospelText;
+            const gospelConclusion = '<div><br>The Gospel of the Lord.</div>';
+            gospelEl.innerHTML = gospelText + gospelConclusion;
         } else {
             gospelEl.innerHTML = "Gospel reading not available for today. <a href='https://universalis.com/mass.htm' target='_blank' class='underline text-brand-600'>Read on Universalis</a>";
         }
