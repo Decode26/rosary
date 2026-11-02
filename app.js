@@ -222,8 +222,18 @@ function loadUniversalisReadings() {
 
     // Specify region/calendar (e.g., Europe.England.Westminster, USA, or Europe)
     // Using 'today' lets Universalis serve today's readings dynamically
+    // Generate today's date string (e.g., "20261102") to act as a cache buster
+    const today = new Date();
+    const yyyy = today.getFullYear();
+    const mm = String(today.getMonth() + 1).padStart(2, '0');
+    const dd = String(today.getDate()).padStart(2, '0');
+    const dateKey = `${yyyy}${mm}${dd}`;
+
     const regionCalendar = "Europe.England.Westminster"; 
-    script.src = `https://universalis.com/${regionCalendar}/today/jsonpmass.js?callback=universalisCallback`;
+
+    // We add &cb=dateKey at the end so the browser knows to fetch a fresh file daily
+    script.src = `https://universalis.com/${regionCalendar}/today/jsonpmass.js?callback=universalisCallback&cb=${dateKey}`;
+    //script.src = `https://universalis.com/${regionCalendar}/today/jsonpmass.js?callback=universalisCallback`;
     
     script.async = true;
 
